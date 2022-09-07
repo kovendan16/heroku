@@ -1,0 +1,25 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "testing htmnl form",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "koventhan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.2",
+    "fs": "^0.0.1-security",
+    "mailer": "^0.6.7",
+    "multer": "^1.4.5-lts.1",
+    "node": "^16.17.0",
+    "nodemailer": "^6.7.8",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
