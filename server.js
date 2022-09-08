@@ -37,7 +37,7 @@ app.post("/send_email", function(req, response){
 
 
   var transporter = nodemailer.createTransport({
-      service: 'gmail',
+      service: 'hotmail',
       auth: {
         user: process.env.EMAIL,
         pass: process.env.PASSWORD
