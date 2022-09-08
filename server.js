@@ -1,8 +1,7 @@
 const express = require('express');
 const port = process.env.PORT ||5000 ;
 const bodyparser = require('body-parser');
-const fs = require('fs');
-const  nodemailer = require("nodemailer")
+const  nodemailer = require("nodemailer");
 const exphbs = require('express-handlebars');
 const { addAbortSignal } = require('stream');
 const dotenv = require('dotenv');
