@@ -4,7 +4,7 @@
   "description": "testing htmnl form",
   "main": "index.js",
   "scripts": {
-   "start": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "author": "koventhan",
   "license": "ISC",
@@ -19,6 +19,9 @@
     "nodemailer": "^6.7.8",
     "nodemailer-express-handlebars": "^5.0.0",
     "nodemailer-smtp-transport": "^2.7.4"
+  }, 
+  "engines": {
+    "node": "16.14.2.",
+    "npm":"8.7.0"
   }
-  
 }
