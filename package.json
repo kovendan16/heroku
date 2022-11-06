@@ -4,7 +4,7 @@
   "description": "testing htmnl form",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "koventhan",
   "license": "ISC",
